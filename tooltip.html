@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tooltip</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="jquery.js">
+</head>
+<body>
+	<div class="container"><br><br><br>
+		<a href="#" title="my tooltip 1" data-toggle="tooltip">Hover over me!</a>
+		<a href="#" title="my tooltip 1" data-toggle="tooltip" data-placement="top">Hover over me!</a>
+		<a href="#" title="my tooltip 1" data-toggle="tooltip" data-placement="right">Hover over me!</a>
+		<a href="#" title="my tooltip 1" data-toggle="tooltip" data-placement="left">Hover over me!</a>
+		<a href="#" title="my tooltip 1" data-toggle="tooltip" data-placement="bottom">Hover over me!</a>
+	
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+</body>
+</html>
