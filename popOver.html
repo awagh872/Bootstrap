@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pop Over</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+		<br><br><br><br><br><br><br><br>
+		<a href="#" data-toggle="popover" title="PopOver Heading" data-content="This is the Body of PopOver. It includes some text...;)" >This is Example 1 of PopOver :)</a>
+		<br><br>
+		<a href="#" data-toggle="popover" title="PopOver Heading" data-content="This is the Body of PopOver. It includes some text...;)" data-trigger="focus">This is Example 2 of PopOver :)</a>
+		<br><br>
+		<a href="#" data-toggle="popover" title="PopOver Heading" data-content="This is the Body of PopOver. It includes some text...;)" data-trigger="hover">This is Example 2 of PopOver :)</a>
+
+		<br><br>
+		<a href="#" data-toggle="popover" title="PopOver Heading" data-content="This is the Body of PopOver. It includes some text...;)" data-trigger="hover" data-placement="top">This is Example 2 of PopOver :)</a>
+		<br><br>
+		<a href="#" data-toggle="popover" title="PopOver Heading" data-content="This is the Body of PopOver. It includes some text...;)" data-trigger="hover" data-placement="bottom">This is Example 2 of PopOver :)</a>
+		<br><br>
+		<a href="#" data-toggle="popover" title="PopOver Heading" data-content="This is the Body of PopOver. It includes some text...;)" data-trigger="hover" data-placement="left">This is Example 2 of PopOver :)</a>
+
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('[data-toggle="popover"]').popover();
+		});
+	</script>
+</body>
+</html>
