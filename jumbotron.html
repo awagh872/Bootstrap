@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jumbotron</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>JUMBOTRON</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 
 	<style type="text/css">
 		.img-jumbo{
-			background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('2.jpg');
-			background-size: 100%,100%;
+			background-image: url('1.jpg');
+			background-size: 100%, 100%;
+		}
+
+		.img-gradient{
+			background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('1.jpg');
+			background-size: 100%, 100%;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<div class="jumbotron">
-			<h1>Welcome to Jumbotron</h1>
-			<p>This is a jumbotron class.</p>
-			<button class="btn btn-primary">SHARE & SUBSCRIBE</button>
+			<h1>Welcome to jumbotron</h1>
+			<p>This is jumbotron.... You can learn it easily.</p>
+			<button class="btn btn-info">LIKE</button>
 		</div>
-	</div><br>
+		
+	</div>
+	<br>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Welcome to jumbotron</h1>
+			<p>This is jumbotron.... You can learn it easily.</p>
+			<button class="btn btn-primary">LIKE</button>
+		</div>
+		
+	</div>
+	<br>
+
 	<div class="jumbotron img-jumbo">
 		<div class="container">
-			<h1>Welcome to Jumbotron</h1>
-			<p>This is a jumbotron class.</p>
-			<button class="btn btn-primary">SHARE & SUBSCRIBE</button>
+			<h1 class="text-white">Welcome to jumbotron</h1>
+			<p class="text-white">This is jumbotron.... You can learn it easily.</p>
+			<button class="btn btn-primary">LIKE</button>
+		</div>
+	</div>
+	<br>
+
+		<div class="jumbotron img-gradient">
+		<div class="container">
+			<h1 class="text-white">Welcome to jumbotron</h1>
+			<p class="text-white">This is jumbotron.... You can learn it easily.</p>
+			<button class="btn btn-primary">LIKE</button>
 		</div>
 </body>
 </html>
